@@ -1,0 +1,88 @@
+@font-face {
+    font-family: AbrilFatFace;
+    src: url("../fonts/AbrilFatface-Regular.ttf");
+}
+
+@font-face {
+    font-family: Bumbbled;
+    src: url("../fonts/Bumbbled.otf");
+}
+
+#foreground-elements div {
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    backdrop-filter: blur(50px) saturate(100%);
+    background: rgba(39, 39, 39, 0.1);
+    box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.75);
+    color: white;
+    position: absolute;
+    z-index: 500;
+}
+
+#foreground-elements {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.title-element {
+    font-weight: lighter;
+    text-align: right;
+    right: 0;
+    top: 33vh;
+    padding: 120px 50px 120px 100px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: none;
+    border-radius: 125px 0 0 125px;
+    min-height: 145px;
+}
+
+.name {
+    font-family: 'Times New Roman', sans-serif;
+    font-weight: lighter;
+    font-size: 90px;
+    line-height: 80px;
+    margin: 0px;
+}
+
+.description {
+    font-weight: 600;
+    margin: 0;
+    font-size: 40px;
+    display: inline;
+}
+
+.side-element {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    z-index: 500;
+    left: 0;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: none;
+    border-top-right-radius: 125px;
+    border-bottom: none;
+    min-width: 230px;
+    min-height: 410px;
+    bottom: 0;
+}
+
+.hello {
+    font-weight: lighter;
+    margin: 0;
+    font-weight: lighter;
+    font-size: 100px;
+    min-width: 156px;
+    color: white;
+    font-family: Bumbbled;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: left;
+}
+
+.github-link {
+    font-weight: bolder;
+    position: absolute;
+    bottom: 20px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    right: 0;
+}

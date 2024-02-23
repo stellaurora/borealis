@@ -1,0 +1,7 @@
+.top-bar {
+    display: flex;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 55px;
+}

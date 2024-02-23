@@ -1,0 +1,85 @@
+html {
+    background-color: #1f1f26;
+    overflow: hidden;
+    height: 100%;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-one {
+    width: 500px;
+    height: 500px;
+    background: linear-gradient(135deg, #b89af4 35%,  #1e9cd8, #005b97);
+    top: -150px;
+    left: 230px;
+}
+
+.greek-statue-one {
+    width: 16%;
+    position: absolute;
+    left: 290px;
+    top: 130px;
+}
+
+.drop-shadow {
+    filter: drop-shadow(5px 5px 25px rgba(0, 0, 0, 0.7));
+}
+
+
+.circle-two {
+    width: 733px;
+    height: 733px;
+    background: linear-gradient(90deg, #2e3192 35%,  #29abe2);
+    top: 67vh;
+    left: -150px;
+}
+
+.dots {
+    letter-spacing: 15px;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+}
+
+.dots-one {
+    top: 160px;
+    left: 100px;
+}
+
+.circle-three {
+    width: 453px;
+    height: 453px;
+    background: linear-gradient(-140deg, #93278f 35%,  #0000ff);
+    left: 1380px;
+    top: -180px;
+}
+
+.dots-two {
+    top: 150px;
+    left: 1000px;
+}
+
+.circle-four {
+    width: 573px;
+    height: 573px;
+    background: linear-gradient(90deg, #ff00ff,  #fbb03b 65%);
+    top: 67vh;
+    left: 1500px;
+}
+
+.dots-three {
+    top: 89vh;
+    left: 1400px;
+}
+
+.circle-five {
+    width: 320px;
+    height: 320px;
+    background: linear-gradient(90deg, #991498, #29abe2 75%);
+    top: 40vh;
+    left: 50vw;
+}
