@@ -8,7 +8,18 @@
     src: url("../fonts/Bumbbled.otf");
 }
 
+@font-face {
+    font-family: TensorSans;
+    src: url("../fonts/TenorSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: Sono;
+    src: url("../fonts/Sono-SemiBold.ttf");
+}
+
 #foreground-elements div {
+    display: none;
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     backdrop-filter: blur(50px) saturate(100%);
     background: rgba(39, 39, 39, 0.1);
@@ -27,7 +38,7 @@
     text-align: right;
     right: 0;
     top: 33vh;
-    padding: 120px 50px 120px 100px;
+    padding: 110px 50px 110px 100px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-right: none;
     border-radius: 125px 0 0 125px;
@@ -35,18 +46,19 @@
 }
 
 .name {
-    font-family: 'Times New Roman', sans-serif;
+    font-family: TensorSans;
     font-weight: lighter;
     font-size: 90px;
-    line-height: 80px;
+    line-height: 100px;
     margin: 0px;
 }
 
 .description {
-    font-weight: 600;
+    font-weight: 300;
     margin: 0;
-    font-size: 40px;
+    font-size: 30px;
     display: inline;
+    font-family: Sono;
 }
 
 .side-element {
